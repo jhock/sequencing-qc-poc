@@ -1,0 +1,5 @@
+sample_id,species,tissue,genotype,treatment,read_1,read_2
+AG1-001,Zea mays,leaf,Line-A,control,data/fastq/AG1-001_R1.fastq.gz,data/fastq/AG1-001_R2.fastq.gz
+AG1-002,Zea mays,leaf,Line-A,control,data/fastq/AG1-002_R1.fastq.gz,data/fastq/AG1-002_R2.fastq.gz
+AG1-003,Zea mays,leaf,Line-A-EDIT1,edited,data/fastq/AG1-003_R1.fastq.gz,data/fastq/AG1-003_R2.fastq.gz
+AG1-004,Zea mays,leaf,Line-A-EDIT2,edited,data/fastq/AG1-004_R1.fastq.gz,data/fastq/AG1-004_R2.fastq.gz

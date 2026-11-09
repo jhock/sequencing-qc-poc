@@ -1,0 +1,10 @@
+row,sample_id,column,value,problem
+2,AG1-001,sample_id,AG1-001,Duplicate sample ID
+3,AG1-001,read_1,data/fastq/AG1-002_R1.fastq.gz,Expected data/fastq/{sample_id}_R1.fastq.gz
+3,AG1-001,read_2,,Expected data/fastq/{sample_id}_R2.fastq.gz
+3,AG1-001,sample_id,AG1-001,Duplicate sample ID
+3,AG1-001,genotype,,Required value is blank
+3,AG1-001,read_2,,Required value is blank
+4,AG1-003,species,Maize,Must be one of: Zea mays
+4,AG1-003,treatment,experimental,"Must be one of: control, edited"
+4,AG1-003,read_2,data/fastq/AG1-099_R2.fastq.gz,Expected data/fastq/{sample_id}_R2.fastq.gz
